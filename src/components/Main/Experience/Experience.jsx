@@ -30,7 +30,34 @@ function Experience() {
           }
         />
       </MainInfoComponent>
-      <MainInfoComponent title={"WORKE XPERIENCE"} />
+      <MainInfoComponent title={"WORKE XPERIENCE"}>
+        <MainInfoComponent
+          title={
+            "Director of the publicre lations center National Aerospace University"
+          }
+          key={
+            "Director of the publicre lations center National Aerospace University"
+          }
+        >
+          <p>developmentofworkplans, estimates, PRcompaniesforpromotion</p>
+          <p>developmentofworkplans, estimates, PRcompaniesforpromotion</p>
+          <p>developmentofworkplans, estimates, PRcompaniesforpromotion</p>
+          <p>developmentofworkplans, estimates, PRcompaniesforpromotion</p>
+        </MainInfoComponent>
+        <MainInfoComponent
+          title={
+            "Director of the publicre lations center National Aerospace University"
+          }
+          key={
+            "Director of the publicre lations center National Aerospace University"
+          }
+        >
+          <p>developmentofworkplans, estimates, PRcompaniesforpromotion</p>
+          <p>developmentofworkplans, estimates, PRcompaniesforpromotion</p>
+          <p>developmentofworkplans, estimates, PRcompaniesforpromotion</p>
+          <p>developmentofworkplans, estimates, PRcompaniesforpromotion</p>
+        </MainInfoComponent>
+      </MainInfoComponent>
       <MainInfoComponent title={"EDUCATION"} />
     </div>
   );

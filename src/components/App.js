@@ -6,8 +6,8 @@ import Main from "./Main/Main";
 function App() {
   return (
     <>
-      <Header />;
-      <Main />;
+      <Header />
+      <Main />
     </>
   );
 }
