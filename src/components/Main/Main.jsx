@@ -8,11 +8,12 @@ import style from "./Main.module.scss";
 function Main() {
   return (
     <main className={style.main}>
-      <Container> 
-        <InfoAndSkills />
-        <Experience />
+      <Container>
+        <div className={style.containerMain}>
+          <InfoAndSkills />
+          <Experience />
+        </div>
       </Container>
-
     </main>
   );
 }

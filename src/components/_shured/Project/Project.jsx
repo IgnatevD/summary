@@ -12,8 +12,8 @@ function Project({
     <div>
       <h3>{title}</h3>
       <a href={linkGit}>{linkGit}</a>
-      <a href={linkProject}> {linkProject}</a>
-      <p> {skils}</p>
+      <a href={linkProject}>{linkProject}</a>
+      <p>{skils}</p>
       <p>{description}</p>
     </div>
   );
