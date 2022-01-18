@@ -1,5 +1,7 @@
+/** @format */
+
 //font
-$mainFont: 'Montserrat', sans-serif;
+$mainFont: "Montserrat", sans-serif;
 //animation
 $trans-func: linear;
 $trans-dur: 250ms;
@@ -9,13 +11,14 @@ $shadow-icon: 0px 1px 1px rgba(24, 24, 24, 0.1);
 @mixin light-theme {
   --color-main-text: #000000;
   --color-second-text: #dac7c7;
---color-background-footer: #e3dddd;
---color-background-main: #ffffff;
+  --color-svg-hover: #1f018b;
+  --color-background-footer: #e3dddd;
+  --color-background-main: #ffffff;
 }
 
 @mixin dark-theme {
   --color-main-text: #ffffff;
   --color-second-text: #dac7c7;
 
---color-background-footer: #4b4444;
+  --color-background-footer: #4b4444;
 }

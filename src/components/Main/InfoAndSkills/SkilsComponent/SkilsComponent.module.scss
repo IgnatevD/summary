@@ -1,13 +1,12 @@
 /** @format */
+.skillsContainer {
+  margin-top: 15px;
+}
 
-.titleContactContainer {
+.titleContainer {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-}
-
-.contactContainer {
-  margin-left: 25px;
 }
 
 .btnContact {
@@ -31,28 +30,4 @@
     height: 100%;
     fill: var(--color-main-text);
   }
-}
-
-.contactLink {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 10px;
-  text-decoration: none;
-  color: var(--color-main-text);
-  font-size: 14px;
-  &:hover,
-  &:focus {
-    color: var(--color-svg-hover);
-    .iconSvg {
-      fill: var(--color-svg-hover);
-    }
-  }
-}
-
-.iconSvg {
-  text-align: center;
-  width: 30px;
-  height: 20px;
-  margin-right: 10px;
 }
