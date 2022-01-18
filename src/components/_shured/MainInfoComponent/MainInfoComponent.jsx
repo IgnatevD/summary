@@ -1,12 +1,17 @@
 /** @format */
+import Project from "../Project/Project";
+import style from "./MainInfoComponent.module.scss";
 
-function MainInfoComponent({ title, children, newClass }) {
+function MainInfoComponent({ EXPERIENCE, className }) {
+  const { title, all } = EXPERIENCE;
   return (
-    <div>
-      <h2>{title}</h2>
+    <div className={style.containerExperience}>
+      <h2 className={style.titleExperience}>{title}</h2>
       <ul>
-        {children?.map((item) => (
-          <li key={item.key}>{item}</li>
+        {all.map((item) => (
+          <li key={item.title}>
+            <Project item={item} newClass={className} />
+          </li>
         ))}
       </ul>
     </div>
