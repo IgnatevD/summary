@@ -1,0 +1,34 @@
+/** @format */
+.containerItem {
+  margin-top: 10px;
+}
+.titleItem {
+  font-size: 18px;
+}
+.linkItem {
+  display: inline-block;
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--color-main-text);
+  &:hover {
+    color: var(--color-svg-hover);
+  }
+}
+
+.experienceList {
+  margin-top: 5px;
+}
+
+.experienceItem {
+  font-size: 14px;
+  &.project {
+    display: inline;
+    color: antiquewhite;
+  }
+}
+
+.descriptionItem {
+  font-size: 14px;
+  margin-top: 5px;
+}

@@ -1,0 +1,28 @@
+/** @format */
+
+.conteinerExperience {
+  margin-top: 30px;
+}
+
+.project {
+  display: inline;
+  font-size: 16px;
+  &:not(:last-child) {
+    &::after {
+      margin: 0 4px;
+      content: "\2727";
+      color: var(--color-main-text);
+    }
+  }
+}
+
+.work {
+  font-size: 16px;
+  margin-top: 8px;
+
+  &::before {
+    margin-right: 5px;
+    content: "\2727";
+    color: var(--color-main-text);
+  }
+}
