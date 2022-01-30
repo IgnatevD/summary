@@ -2,11 +2,7 @@
 
 //font
 $mainFont: "Montserrat", sans-serif;
-//animation
-$trans-func: linear;
-$trans-dur: 250ms;
-//shadow
-$shadow-icon: 0px 1px 1px rgba(24, 24, 24, 0.1);
+
 //colors
 @mixin light-theme {
   --color-main-text: #000000;
@@ -19,6 +15,5 @@ $shadow-icon: 0px 1px 1px rgba(24, 24, 24, 0.1);
 @mixin dark-theme {
   --color-main-text: #ffffff;
   --color-second-text: #dac7c7;
-
   --color-background-footer: #4b4444;
 }
