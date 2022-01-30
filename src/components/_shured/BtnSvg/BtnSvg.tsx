@@ -4,7 +4,7 @@ import React from 'react';
 import Svg from '../Svg/Svg';
 interface Props {
   icon?: string;
-  onClick?: any;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
   className?: string;
   classNameIcon?: string;
   type: 'button' | 'submit';
