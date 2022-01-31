@@ -1,4 +1,14 @@
+<!-- @format -->
+
 # Getting Started with Create React App
+
+Этапы проекта:
+
+1. Создать резюме используя базовые компоненты реакта
+2. ПОделючить функционал (работу кнопок, переключения темы и языка)
+3. Переписать на Редаксе
+4. Создать БЭ приложение для резюме?
+5. Подключить к базе Монго ДБ
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

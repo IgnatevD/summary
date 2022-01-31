@@ -1,7 +1,7 @@
 /** @format */
-import style from "./Header.module.scss";
-import myPhoto from "../../img/ignatev.jpg";
-import Container from "../_shured/Container/Container";
+import style from './Header.module.scss';
+import myPhoto from '../../img/ignatev.jpg';
+import Container from '../_shured/Container/Container';
 
 function Header() {
   return (
@@ -21,4 +21,4 @@ function Header() {
   );
 }
 
-export default Header
+export default Header;

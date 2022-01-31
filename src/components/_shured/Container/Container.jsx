@@ -1,9 +1,9 @@
 /** @format */
-import PropTypes from "prop-types";
-import styles from "./Container.module.scss";
+import PropTypes from 'prop-types';
+import styles from './Container.module.scss';
 
 const Container = ({ children, className = null }) => (
-  <div className={[styles.container, className].join(" ")}>{children}</div>
+  <div className={[styles.container, className].join(' ')}>{children}</div>
 );
 
 Container.propTypes = {
