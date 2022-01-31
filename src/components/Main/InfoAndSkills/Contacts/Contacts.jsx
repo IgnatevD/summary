@@ -1,5 +1,4 @@
 /** @format */
-
 import { useEffect, useState } from 'react';
 import BtnSvg from '../../../_shured/BtnSvg/BtnSvg';
 import Svg from '../../../_shured/Svg/Svg';
@@ -24,7 +23,7 @@ function Contacts() {
           className={style.btnContact}
           icon={contact ? 'minus' : 'plus'}
         />
-        <h2>CONTACT INFORMATION</h2>
+        <h2 className={style.titleContact}>CONTACT INFORMATION</h2>
       </div>
 
       {contact && (
